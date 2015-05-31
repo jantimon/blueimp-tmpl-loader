@@ -2,7 +2,6 @@
   "name": "blueimp-tmpl-loader",
   "version": "0.0.1",
   "description": "blueimp templates loader for webpack",
-  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/jantimon/blueimp-tmpl-loader.git"
@@ -19,6 +18,7 @@
     "email": "j.nicklas@me.com"
   },
   "license": "MIT",
+  "main": "index.js",
   "peerDependencies": {
     "lodash": "*"
   },
