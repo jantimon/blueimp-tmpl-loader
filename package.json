@@ -19,6 +19,13 @@
     "email": "j.nicklas@me.com"
   },
   "license": "MIT",
+  "peerDependencies": {
+    "lodash": "*"
+  },
+  "dependencies": {
+    "html-minifier": "^0.7.0",
+    "loader-utils": "^0.2.9"
+  },
   "devDependencies": {
     "ace-builds": "git://github.com/ajaxorg/ace-builds",
     "brace": "^0.4.0",
