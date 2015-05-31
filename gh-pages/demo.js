@@ -23,7 +23,7 @@ window.compile = function () {
     }
     var query = url.indexOf('?') > 0 ? url.replace(/^.+\?/, '?') : '';
     var module = {};
-    eval(loader.call({query: query}, tpl));
+    eval(loader.call({query: query}, tpl).replace('require("blueimp-tmpl").tmpl', 'window.tmpl'));
     return module.exports;
   };
   // Execute js
