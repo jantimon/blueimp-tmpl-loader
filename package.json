@@ -2,11 +2,18 @@
   "private": true,
   "name": "blueimp-tmpl-demo",
   "version": "0.0.1",
-  "description": "Blueimp template loader for webpack",
+  "description": "blueimp templates loader for webpack",
   "repository": {
     "type": "git",
     "url": "https://github.com/jantimon/blueimp-tmpl-loader.git"
   },
+  "keywords": [
+    "blueimp",
+    "blueimp-tmpl",
+    "webpack",
+    "loader",
+    "template"
+  ],
   "author": {
     "name": "Jan Nicklas",
     "email": "j.nicklas@me.com"
