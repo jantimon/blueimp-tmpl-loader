@@ -19,9 +19,6 @@
   },
   "license": "MIT",
   "main": "index.js",
-  "peerDependencies": {
-    "lodash": "*"
-  },
   "dependencies": {
     "html-minifier": "^0.7.0",
     "loader-utils": "^0.2.9"
