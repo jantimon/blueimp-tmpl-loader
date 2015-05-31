@@ -1,0 +1,37 @@
+{
+  "name": "blueimp-tmpl-loader",
+  "version": "0.0.1",
+  "description": "blueimp templates loader for webpack",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jantimon/blueimp-tmpl-loader.git"
+  },
+  "keywords": [
+    "blueimp",
+    "blueimp-tmpl",
+    "webpack",
+    "loader",
+    "template"
+  ],
+  "author": {
+    "name": "Jan Nicklas",
+    "email": "j.nicklas@me.com"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "lodash": "*"
+  },
+  "dependencies": {
+    "html-minifier": "^0.7.0",
+    "loader-utils": "^0.2.9"
+  },
+  "devDependencies": {
+    "mocha": "1.17.x",
+    "should": "3.1.x",
+    "blueimp-tmpl": "*"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec"
+  }
+}
