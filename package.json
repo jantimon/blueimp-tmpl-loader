@@ -1,7 +1,6 @@
 {
-  "private": true,
-  "name": "blueimp-tmpl-demo",
-  "version": "0.0.1",
+  "name": "blueimp-tmpl-loader",
+  "version": "0.0.2",
   "description": "blueimp templates loader for webpack",
   "repository": {
     "type": "git",

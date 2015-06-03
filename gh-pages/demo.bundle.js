@@ -35,7 +35,7 @@ module.exports = function (source) {
   }
 
   function templateLoader(str) {
-    return 'var tmpl = require("blueimp-tmpl").tmpl;module.exports = ' + compileTemplate(str);
+    return 'var tmpl = require("blueimp-tmpl");tmpl=tmpl.tmpl||tmpl;module.exports = ' + compileTemplate(str);
   }
 
   return templateLoader(source);
@@ -67276,7 +67276,7 @@ window.compile = function () {
     }
     var query = url.indexOf('?') > 0 ? url.replace(/^.+\?/, '?') : '';
     var module = {};
-    eval(loader.call({query: query}, tpl).replace('require("blueimp-tmpl").tmpl', 'window.tmpl'));
+    eval(loader.call({query: query}, tpl).replace('require("blueimp-tmpl")', 'window.tmpl'));
     return module.exports;
   };
   // Execute js
