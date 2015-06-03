@@ -1,6 +1,6 @@
 {
   "name": "blueimp-tmpl-loader",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "blueimp templates loader for webpack",
   "repository": {
     "type": "git",
@@ -19,14 +19,15 @@
   },
   "license": "MIT",
   "main": "index.js",
+  "files": ["index.js"],
   "dependencies": {
+    "blueimp-tmpl": "^2.5.4",
     "html-minifier": "^0.7.0",
     "loader-utils": "^0.2.9"
   },
   "devDependencies": {
     "mocha": "1.17.x",
-    "should": "3.1.x",
-    "blueimp-tmpl": "*"
+    "should": "3.1.x"
   },
   "scripts": {
     "test": "mocha --reporter spec"
