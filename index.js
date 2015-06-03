@@ -34,7 +34,7 @@ module.exports = function (source) {
   }
 
   function templateLoader(str) {
-    return 'var tmpl = require("blueimp-tmpl").tmpl;module.exports = ' + compileTemplate(str);
+    return 'var tmpl = require("blueimp-tmpl");tmpl=tmpl.tmpl||tmpl;module.exports = ' + compileTemplate(str);
   }
 
   return templateLoader(source);
