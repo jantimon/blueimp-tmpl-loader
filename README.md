@@ -6,7 +6,7 @@ Compile templates and allows minification
 
 ## Installation
 
-`npm install blueimp-tmpl-loader --save-dev`
+`npm install blueimp-tmpl blueimp-tmpl-loader --save-dev`
 
 ## Usage
 
